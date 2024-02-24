@@ -1,0 +1,30 @@
+.faq {
+  width: 90%;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+.faq .left {
+  width: 100%;
+  text-align: center;
+}
+.faq .left h3 {
+  width: 100%;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-bottom: 16px;
+}
+.faq .left a {
+  text-decoration: none;
+  color: #2405f2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.faq .right {
+  width: 100%;
+}

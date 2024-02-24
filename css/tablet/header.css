@@ -1,0 +1,127 @@
+.hero {
+  width: 100%;
+  height: 500px;
+  background: #1c1e53;
+}
+.hero .menu {
+  width: 100%;
+  height: 72px;
+}
+.hero .menu nav {
+  width: 100%;
+  height: inherit;
+  display: block;
+}
+.hero .menu nav .logo {
+  width: 100%;
+}
+.hero .menu nav .navitem {
+  width: 50%;
+  display: block;
+  position: absolute;
+  text-align: center;
+  left: -50%;
+  transition: 400ms;
+  z-index: 10;
+}
+.hero .menu nav .hamburger {
+  width: fit-content;
+  height: 40px;
+  background-color: #84848a;
+  cursor: pointer;
+  margin-top: 20px;
+  line-height: 30px;
+  padding: 5px;
+  box-sizing: border-box;
+  border-top-right-radius: 40%;
+  border-bottom-right-radius: 40%;
+}
+.hero .menu nav .navitem div {
+  width: 100%;
+  height: 60px;
+  background-color: rgb(0, 81, 81);
+  line-height: 60px;
+  margin-right: 40px;
+  transition: 300ms;
+  &:hover {
+    background-color: #84848a;
+  }
+}
+.hero .menu nav .navitem div a {
+  text-decoration: none;
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+
+.hero .menu nav .navitem div .active {
+  color: #fff;
+}
+.spacecontact {
+  color: #fff !important;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  padding: 16px 48px;
+}
+.hero .startup {
+  width: 100%;
+  margin-top: 100px;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 60px;
+}
+.hero .startup .left {
+  width: 100%;
+  text-align: center;
+}
+.hero .startup .left h1 {
+  width: 100%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 34px;
+  font-style: normal;
+  font-weight: bold;
+  margin-bottom: 24px;
+}
+.hero .startup .left p {
+  width: 100%;
+  color: #fff;
+  opacity: 0.7;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+}
+.hero .startup .left div {
+  margin-top: 48px;
+}
+.hero .startup .left button {
+  display: block;
+  width: 50%;
+  margin-left: 25%;
+  padding: 16px 56px;
+  border-radius: 41px;
+  background: #fcd980;
+  margin-bottom: 10px;
+}
+.hero .startup .left a {
+  text-decoration: none;
+  margin-left: 20%;
+}
+.hero .startup .left a span {
+  width: 50%;
+  display: block;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  margin-left: 25%;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.hero .startup .right {
+  display: none;
+}

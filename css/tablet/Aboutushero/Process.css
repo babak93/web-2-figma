@@ -1,0 +1,46 @@
+.Process {
+  width: 90%;
+  margin: 58px auto;
+  & h2 {
+    color: #282938;
+    font-family: Poppins;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 64px;
+    text-align: center;
+  }
+  .cards {
+    display: flex;
+    flex-flow: row wrap;
+    margin-top: 48px;
+    justify-content: center;
+    gap: 56px;
+    .card {
+      width: 272px;
+      & span {
+        width: 24px;
+        height: 24px;
+      }
+      & h6 {
+        color: #282938;
+        margin-top: 32px;
+        font-family: Poppins;
+        font-size: 24px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 36px;
+      }
+      & p {
+        width: 272px;
+        color: #282938;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+        opacity: 0.7;
+      }
+    }
+  }
+}

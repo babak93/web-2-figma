@@ -1,0 +1,160 @@
+.ourwork {
+  width: 100%;
+  height: 728px;
+  margin-top: 128px;
+  padding-left: 160px;
+  padding-right: 160px;
+  background-color: #fff;
+}
+.ourwork .view {
+  display: flex;
+  flex-flow: row wrap;
+  width: 1280px;
+  height: 64px;
+  margin: 0 auto;
+  justify-content: space-between;
+  align-items: center;
+}
+.ourwork .view h2 {
+  width: 467px;
+  color: #282938;
+  /* Heading 2 */
+  font-family: Poppins;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 64px; /* 133.333% */
+}
+.ourwork .view a {
+  text-decoration: none;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  justify-content: center;
+  margin-top: 21px;
+}
+.ourwork .view a span {
+  margin-left: 15px;
+}
+.ourwork .cards {
+  width: 1280px;
+  height: 600px;
+  display: grid;
+  grid-template-columns: 843px 405px;
+  gap: 32px;
+  margin: 0 auto;
+  margin-top: 64px;
+}
+.ourwork .cards .card1 {
+  position: relative;
+  overflow: hidden;
+}
+.ourwork .cards .card1 .cover {
+  width: 396px;
+  height: 600px;
+  position: absolute;
+  background: linear-gradient(rgba(28, 30, 83, 1), rgba(28, 30, 83, 0.42));
+  top: 0;
+  left: -100%;
+  transition: 500ms;
+}
+.ourwork .cards .card1 .cover h5 {
+  width: 313px;
+  margin-top: 312px;
+  margin-left: 48px;
+  margin-bottom: 16px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px; /* 150% */
+}
+.ourwork .cards .card1 .cover p {
+  width: 293px;
+  color: #fff;
+  margin-left: 48px;
+  margin-bottom: 40px;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  opacity: 0.8;
+}
+.ourwork .cards .card1 .cover a {
+  text-decoration: none;
+  margin-left: 32px;
+  color: #fcd980;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+.ourwork .cards .card1 .cover a span {
+  margin-left: 16px;
+}
+.ourwork .cards .card1:hover .cover {
+  left: 0;
+}
+.ourwork .cards .card2 {
+  display: grid;
+  grid-template-columns: 405px;
+  grid-template-rows: repeat(2, 284px);
+  gap: 32px;
+}
+.ourwork .cards .card2 .top {
+  position: relative;
+  height: 284px;
+  width: 405px;
+  overflow: hidden;
+}
+.ourwork .cards .card2 .top img {
+  width: 100%;
+}
+.ourwork .cards .card2 .top .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: 500ms;
+  background: linear-gradient(rgba(28, 30, 83, 1), rgba(28, 30, 83, 0.42));
+}
+.ourwork .cards .card2 .top .cover h5 {
+  width: 250px;
+  height: 72px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 36px;
+  margin-top: 129px;
+  margin-left: 56px;
+  margin-bottom: 10px;
+}
+.ourwork .cards .card2 .top .cover a {
+  text-decoration: none;
+  color: #fcd980;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+  margin-left: 56px;
+}
+.ourwork .cards .card2 .top .cover a span:nth-last-of-type(1){
+    margin-left: 16px;
+}
+.ourwork .cards .card2 .top:hover .cover{
+    top: 0;
+}
+.ourwork .cards .card2 .bottom {
+    height: 284px;
+    width: 405px;  
+}

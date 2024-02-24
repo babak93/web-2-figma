@@ -1,0 +1,88 @@
+.Testimonials {
+  width: 1600px;
+  height: 506px;
+  background: #f4f6fc99;
+  display: flex;
+  flex-flow: row wrap;
+}
+.Testimonials .left {
+  width: 327px;
+  height: 100%;
+  margin-left: 160px;
+}
+.Testimonials .left h3 {
+  margin-top: 130px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+}
+.Testimonials .left p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  opacity: 0.7;
+  margin-top: 16px;
+  font-weight: 400;
+  line-height: 28px;
+}
+.Testimonials .right {
+  width: 843px;
+  height: 100%;
+  margin-left: 110px;
+}
+.Testimonials .right h5 {
+  margin-top: 128px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+.Testimonials .right .profiles {
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-between;
+  width: inherit;
+  margin-top: 48px;
+}
+.Testimonials .right .profiles .profile {
+  width: 249px;
+  height: 56px;
+  display: flex;
+  flex-flow: row wrap;
+}
+.Testimonials .right .profiles .profile img {
+  border-radius: 50%;
+  object-fit: cover;
+  width: 50px;
+  height: 50px;
+}
+.Testimonials .right .profiles .profile .name{
+    margin-left: 10px;
+    height: 60px;
+}
+.Testimonials .right .profiles .profile .name h6 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.Testimonials .right .profiles .profile .name p {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px;
+}
+.Testimonials .right .profiles .arrow {
+  width: 107.2px;
+  height: 48px;
+}

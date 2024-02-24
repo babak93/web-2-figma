@@ -1,0 +1,74 @@
+.mission {
+  width: 100%;
+  margin: 0 auto;
+  background-color: #eef4fa;
+  text-align: center;
+  .topleft {
+    width: 100%;
+    text-align: center;
+    & h6 {
+      margin-top: 130px;
+      color: #282938;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+    }
+    & h3 {
+      color: #282938;
+      font-family: Poppins;
+      font-size: 38px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 56px;
+    }
+    & p {
+      color: #282938;
+      opacity: 0.7;
+      font-family: Poppins;
+      font-size: 16px;
+      font-style: normal;
+      font-weight: 400;
+      line-height: 28px;
+    }
+  }
+  .topright {
+    width: 60%;
+    margin:20px auto;
+  }
+  .buttomleft{
+    width: 60%;
+    margin:20px auto;
+  }
+  .buttomright{
+    margin: 20px auto;
+    text-align: center;
+    & h6 {
+        color: #282938;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 500;
+        line-height: 28px;
+      }
+      & h3 {
+        color: #282938;
+        font-family: Poppins;
+        font-size: 38px;
+        font-style: normal;
+        font-weight: 600;
+        line-height: 56px;
+      }
+      & p {
+        color: #282938;
+        opacity: 0.7;
+        font-family: Poppins;
+        font-size: 16px;
+        font-style: normal;
+        font-weight: 400;
+        line-height: 28px;
+      }
+  
+  }
+}

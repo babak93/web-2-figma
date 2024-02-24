@@ -1,0 +1,136 @@
+.ourwork {
+  width: 100%;
+  margin-top: 50px;
+  padding: 10%;
+  background-color: #fff;
+}
+.ourwork .view {
+  display: block;
+  width: 80%px;
+  margin: 0 auto;
+  text-align: center;
+}
+.ourwork .view h2 {
+  width: 100%;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 48px;
+  font-weight: 600;
+}
+.ourwork .view a {
+  text-decoration: none;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+  margin-top: 21px;
+}
+.ourwork .cards {
+  width: 80%;
+  display: block;
+  margin: 10px auto;
+  margin-top: 64px;
+}
+.ourwork .cards .card1 {
+  position: relative;
+  overflow: hidden;
+  margin-bottom: 20px;
+}
+.ourwork .cards .card1 .cover {
+  width: 40%;
+  height: 100%;
+  position: absolute;
+  background: linear-gradient(rgba(28, 30, 83, 1), rgba(28, 30, 83, 0.42));
+  top: 0;
+  left: -100%;
+  transition: 500ms;
+}
+.ourwork .cards .card1 .cover h5 {
+  width: 80%;
+  margin-bottom: 18px;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 14px;
+  margin-left: 15%;
+  margin-top: 15%;
+  font-style: normal;
+  font-weight: 600;
+}
+.ourwork .cards .card1 .cover p {
+  width: 80%;
+  color: #fff;
+  margin-left: 15%;
+  margin-bottom: 40px;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+  opacity: 0.8;
+}
+.ourwork .cards .card1 .cover a {
+  text-decoration: none;
+  margin-left: 20%;
+  color: #fcd980;
+  font-family: Poppins;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 500;
+}
+.ourwork .cards .card1 .cover a span {
+  margin-left: 16px;
+}
+.ourwork .cards .card1:hover .cover {
+  left: 0;
+}
+.ourwork .cards .card2 {
+  display: block;
+}
+.ourwork .cards .card2 .top {
+  position: relative;
+  width: 100%;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+.ourwork .cards .card2 .top img {
+  width: 100%;
+}
+.ourwork .cards .card2 .top .cover {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: -100%;
+  left: 0;
+  transition: 500ms;
+  background: linear-gradient(rgba(28, 30, 83, 1), rgba(28, 30, 83, 0.42));
+}
+.ourwork .cards .card2 .top .cover h5 {
+  width: 100%;
+  color: #fff;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  margin-top: 15%;
+  margin-left: 15%;
+  margin-bottom: 10px;
+}
+.ourwork .cards .card2 .top .cover a {
+  text-decoration: none;
+  color: #fcd980;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  margin-left: 15%;
+}
+.ourwork .cards .card2 .top .cover a span:nth-last-of-type(1) {
+  margin-left: 16px;
+}
+.ourwork .cards .card2 .top:hover .cover {
+  top: 0;
+}
+.ourwork .cards .card2 .bottom {
+  width: 100%;
+}

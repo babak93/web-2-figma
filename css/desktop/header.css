@@ -1,0 +1,115 @@
+.hero {
+  width: 1600px;
+  margin: 0 auto;
+  height: 760px;
+  flex-shrink: 0;
+  background: #1c1e53;
+}
+.hero .menu {
+  width: 100%;
+  height: 92px;
+}
+.hero .menu nav {
+  width: 100%;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+}
+.hero .menu nav .logo {
+  width: 122px;
+  height: 24.709px;
+  margin: 33px 452px 34.3px 160px;
+}
+.hero .menu nav .navitem {
+  width: fit-content;
+  height: inherit;
+  display: flex;
+  flex-flow: row wrap;
+  align-items: center;
+}
+.hero .menu nav .navitem div {
+  width: fit-content;
+  margin-right: 32px;
+}
+.hero .menu nav .navitem div a {
+  text-decoration: none;
+  color: #bbbbcb;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 28px; /* 175% */
+}
+
+.hero .menu nav .navitem div .active {
+  color: #fff;
+}
+.spacecontact {
+  color: #fff !important;
+  margin-left: 48px;
+  border-radius: 41px;
+  border: 2px solid rgba(244, 246, 252, 0.2);
+  padding: 16px 48px;
+}
+.hero .startup {
+  width: 100%;
+  margin-top: 126px;
+  display: flex;
+  flex-flow: row wrap;
+  column-gap: 60px;
+}
+.hero .startup .left {
+  width: 582px;
+  height: 414px;
+  margin-left: 160px;
+  margin-bottom: 128px;
+}
+.hero .startup .left h1 {
+  color: #fff;
+
+  /* Heading 1 */
+  font-family: Poppins;
+  font-size: 54px;
+  font-style: normal;
+  font-weight: bold;
+  line-height: 74px; /* 137.037% */
+  margin-bottom: 24px;
+}
+.hero .startup .left p {
+  color: #fff;
+  opacity: 0.7;
+  width: 562px;
+  /* Paragraph */
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px; /* 175% */
+}
+.hero .startup .left div{
+    margin-top: 48px;
+}
+.hero .startup .left button {
+  display: inline-flex;
+  padding: 16px 56px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 41px;
+  background: #fcd980;
+  margin-right: 40px;
+}
+.hero .startup .left a{
+    text-decoration: none;
+}
+.hero .startup .left a span{
+    color:  #FFF;
+font-family: Poppins;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 28px; /* 175% */
+margin-right: 10px;
+}
+.hero .startup .right{
+  width: fit-content;
+}

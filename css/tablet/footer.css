@@ -1,0 +1,115 @@
+footer {
+  width: 100%;
+  text-align: center;
+}
+footer .content {
+  width: 100%;
+  background-color: #1c1e53;
+  display: flex;
+  flex-flow: row wrap;
+}
+footer .content .left {
+  width: 50%;
+  & p {
+    color: #fff;
+    width: 80%;
+    opacity: 0.8;
+    margin-left: 10%;
+    margin-bottom: 20px;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+  }
+}
+footer .content .left .logo {
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 23px;
+}
+footer .content .left .Contact {
+  width: 100%;
+  background-color: #fcd980;
+  display: grid;
+  column-gap: 29px;
+}
+footer .content .left .Contact div {
+  margin-left: 10px;
+  padding-top: 10px;
+  box-sizing: border-box;
+}
+footer .content .left .Contact div h5 {
+  color: #282938;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+footer .content .left .Contact div p {
+  all: unset;
+  color: #282938;
+  opacity: 0.7;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+footer .content .right {
+  width: 50%;
+  & span {
+    margin-right: 5px;
+  }
+}
+footer .content .right h2 {
+  color: #fff;
+  margin-top: 20px;
+  font-family: Poppins;
+  font-size: 28px;
+  font-style: normal;
+  font-weight: 600;
+}
+footer .content .right p {
+  color: #f4f6fc;
+  width: 70%;
+  margin-left: 5%;
+  opacity: 0.8;
+  font-family: Poppins;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 28px;
+}
+footer .links {
+  width: 100%;
+  background-color: white;
+  display: flex;
+  flex-flow: row wrap;
+  .left {
+    width: 30%;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+  .right {
+    width: 70%;
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-content: center;
+    gap: 20px;
+    & a {
+      text-decoration: none;
+      color: #282938;
+      font-family: Poppins;
+      font-size: 12px;
+      font-style: normal;
+      font-weight: 500;
+      line-height: 28px;
+    }
+  }
+}

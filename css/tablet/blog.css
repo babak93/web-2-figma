@@ -1,0 +1,76 @@
+.blog {
+  width: 100%;
+  margin: 128px auto;
+  text-align: center;
+  .ourblog {
+    margin-bottom: 64px;
+    & h2 {
+      color: #282938;
+      font-family: Poppins;
+      font-size: 48px;
+      font-style: normal;
+      font-weight: 600;
+      line-height: 64px;
+    }
+  }
+}
+.blog .blogcards {
+  width: 100%;
+  text-align: center;
+}
+.blog .blogcards .card {
+  width: 100%;
+  border: unset;
+  & img {
+    width: 50%;
+    object-fit: cover;
+    margin: 0 auto;
+    margin-bottom: 40px;
+  }
+  & label {
+    width: 100%;
+    opacity: 0.7;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    margin-bottom: 16px;
+  }
+  & h6 {
+    width: 80%;
+    margin: 0 auto;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 36px;
+    margin-bottom: 16px;
+  }
+  & p {
+    color: var(--Dark-blue, #282938);
+    width: 80%;
+    margin: 0 auto;
+    opacity: 0.7;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 32px;
+  }
+  & a {
+    text-decoration: none;
+    color: #282938;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+    & span {
+      margin-right: 16px;
+    }
+  }
+}

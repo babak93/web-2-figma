@@ -1,0 +1,35 @@
+.faq {
+  width: 1283.31px;
+  height: 537px;
+  margin: 128px auto;
+  display: flex;
+  flex-flow: row wrap;
+}
+.faq .left {
+  width: 440px;
+  height: inherit;
+}
+.faq .left h3 {
+  width: 328px;
+  color: #282938;
+  font-family: Poppins;
+  font-size: 38px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 56px;
+  margin-bottom: 16px;
+}
+.faq .left a {
+  text-decoration: none;
+  color: #2405f2;
+  text-align: center;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+.faq .right {
+  width: 843px;
+}
+

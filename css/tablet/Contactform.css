@@ -1,0 +1,99 @@
+.Contactform {
+  width: 100%;
+  margin: 0 auto;
+}
+.Contactform .Startconvert {
+  width: 100%;
+  background: url(../../images/woman-writing-on-paper-3228878.png);
+  position: relative;
+  overflow: hidden;
+}
+.Contactform .form {
+  width: 100%;
+  height: 100%;
+  background: #1c1e53;
+  text-align: center;
+}
+.Contactform .form h5 {
+  width: 100%;
+  color: #fff;
+  margin-top: 96px;
+  margin-bottom: 16px;
+  font-family: Poppins;
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+.Contactform .form p {
+  color: #f4f6fc;
+  font-family: Poppins;
+  font-size: 16px;
+  margin-bottom: 40px;
+  font-style: normal;
+  font-weight: 500;
+}
+.Contactform .form input {
+  width: 95%;
+  height: 64px;
+  border-radius: 8px;
+  border: 1.5px solid rgba(255, 255, 255, 0.05);
+  margin-bottom: 16px;
+  padding: 18px 32px;
+  background-color: #1c1e53;
+}
+.Contactform .form button {
+  width: 60%;
+  height: 64px;
+  padding: 15px 51px;
+  align-items: center;
+  border-radius: 41px;
+  background: #fcd980;
+  margin-top: 23px;
+}
+.Contactform .form a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  font-family: Poppins;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-top: 28px;
+}
+.Contactform .Startconvert .cover {
+  width: 100%;
+  background-color: rgba(28, 30, 83, 0.5);
+  position: absolute;
+  left: -100%;
+  top: 0;
+  transition: 500ms;
+  & h1 {
+    width: 464px;
+    height: 225px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 54px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 74px;
+    margin-top: 96px;
+    margin-left: 96px;
+  }
+  & p {
+    width: 464px;
+    height: 85px;
+    margin-left: 96px;
+    margin-top: 24px;
+    color: #fff;
+    font-family: Poppins;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 28px;
+  }
+}
+.Contactform .Startconvert:hover .cover {
+  left: 0;
+}
